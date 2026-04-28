@@ -1,0 +1,56 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif; 
+}
+.container{
+    max-width: 80%;
+    /* background-color: orange; */
+    padding: 34px;
+    margin: auto
+}
+.container h1{
+    text-align: center;
+    font-size: 40px;
+    font-family: "Sriracha", cursive;
+}
+p{
+    text-align: center;
+    font-size: 17px;
+    font-family: "Sriracha", cursive;
+}
+input, textarea{
+    border: 2px solid orangered;
+    border-radius: 6px;
+    font-size: 16px;
+    outline: none;
+    width: 80%;
+    margin: 11px 0px;
+    padding: 7px;
+}
+form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.btn{
+    color: white;
+    background: orange;
+    padding: 8px 12px;
+    font-size: 20px;
+    border: 2px solid white;
+    border-radius: 14px;
+    cursor: pointer;
+}
+.bg{
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+    opacity: 0.8;
+}
+.submitMessage{
+    color: green;
+    font-size: 25px;
+}
